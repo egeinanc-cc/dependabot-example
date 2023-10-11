@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "google-auth-library": "^4.2.0",
+    "google-proto-files": "^0.2.4",
     "next": "13.5.4",
     "react": "^18",
     "react-dom": "^18"
