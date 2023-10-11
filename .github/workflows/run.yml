@@ -7,7 +7,7 @@ on:
   push:
     branches: [ "main" ]
   pull_request:
-    branches: [ "test-checks" ]
+    branches: [ "dependabot/*" ]
 
 jobs:
   build:
