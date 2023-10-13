@@ -12,7 +12,7 @@
   "dependencies": {
     "@azure/core-paging": "^1.0.0",
     "@bshgroup/component-drawer": "^0.3.0",
-    "@bshgroup/component-navigation": "^0.11.0",
+    "@bshgroup/component-navigation": "^0.12.1",
     "@bshgroup/component-themes": "^0.41.0",
     "facebook-nodejs-business-sdk": "^16.0.2",
     "next": "13.5.4",
