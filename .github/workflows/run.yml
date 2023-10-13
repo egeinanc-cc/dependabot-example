@@ -26,6 +26,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - run: cat .npmrc
     - run: cp .npmrc ~/.npmrc
     - run: cat ~/.npmrc
     - run: npm install
