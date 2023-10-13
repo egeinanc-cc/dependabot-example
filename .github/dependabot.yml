@@ -16,5 +16,5 @@ updates:
       - bshgroup
     schedule:
       interval: "daily"
-      time: "16:25"
+      time: "16:51"
 
