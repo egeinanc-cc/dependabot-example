@@ -27,7 +27,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: |
-        echo @bshgroup:registry=https://npm.pkg.github.com > .npmrc \
+        echo @bshgroup:registry=https://npm.pkg.github.com > .npmrc && \
         echo //npm.pkg.github.com/:_authToken=${{secrets.MY_ARTIFACTORY_PASSWORD}} >> .npmrc
 
     - run: cp .npmrc ~/.npmrc
