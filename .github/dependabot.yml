@@ -12,6 +12,9 @@ registries:
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
+    registries:
+      - bshgroup
     schedule:
       interval: "daily"
       time: "14:10"
+
