@@ -8,7 +8,7 @@ registries:
   bshgroup:
     type: npm-registry
     url: https://npm.pkg.github.com
-    token: ${{secrets.GH_TOKEN}} # github token
+    token: ${{secrets.GITHUB_TOKEN}} # github token
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
