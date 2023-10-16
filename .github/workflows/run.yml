@@ -28,7 +28,7 @@ jobs:
         cache: 'npm'
     - run: |
         echo @bshgroup:registry=https://npm.pkg.github.com > .npmrc && \
-        echo //npm.pkg.github.com/:_authToken=${{secrets.MY_ARTIFACTORY_PASSWORD}} >> .npmrc
+        echo //npm.pkg.github.com/:_authToken=${{secrets.GH_TOKEN}} >> .npmrc
 
     - run: cp .npmrc ~/.npmrc
     - run: npm install
