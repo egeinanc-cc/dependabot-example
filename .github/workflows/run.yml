@@ -31,7 +31,6 @@ jobs:
         echo //npm.pkg.github.com/:_authToken=${{secrets.MY_ARTIFACTORY_PASSWORD}} >> .npmrc
 
     - run: cp .npmrc ~/.npmrc
-    - run: cat ~/.npmrc
     - run: npm install
     - run: npm run build --if-present
     - run: npm test
