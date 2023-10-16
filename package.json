@@ -14,6 +14,7 @@
     "@bshgroup/component-drawer": "^0.3.0",
     "@bshgroup/component-navigation": "^0.11.0",
     "@bshgroup/component-themes": "^0.41.0",
+    "@bshgroup/component-info-label": "^0.1.6",
     "facebook-nodejs-business-sdk": "^16.0.2",
     "next": "13.5.4",
     "react": "^18",
