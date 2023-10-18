@@ -10,14 +10,6 @@
     "test": "jest"
   },
   "dependencies": {
-    "@angular/material": "^11.2.10",
-    "@azure/core-paging": "^1.0.0",
-    "@bshgroup/component-drawer": "^0.3.0",
-    "@bshgroup/component-info-label": "^0.1.6",
-    "@bshgroup/component-navigation": "^0.11.0",
-    "@bshgroup/component-themes": "^0.41.0",
-    "facebook-nodejs-business-sdk": "^16.0.2",
-    "factory.ts": "^0.3.4",
     "next": "13.5.5",
     "react": "^18",
     "react-dom": "^18"
