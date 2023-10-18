@@ -14,7 +14,7 @@
     "@bshgroup/component-editorial-teaser": "^0.3.2",
     "@bshgroup/component-feature": "^1.1.8",
     "@bshgroup/component-product-title": "^0.1.1",
-    "@bshgroup/component-rating": "^0.1.40",
+    "@bshgroup/component-rating": "^0.2.0",
     "@bshgroup/component-stack": "^0.1.31",
     "next": "13.5.5",
     "react": "^18",
