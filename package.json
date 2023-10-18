@@ -10,6 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@bshgroup/component-editorial-teaser": "^0.3.0",
     "@bshgroup/component-feature": "^1.1.8",
     "@bshgroup/component-product-title": "^0.1.1",
     "@bshgroup/component-stack": "^0.1.31",
