@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@bshgroup/component-feature": "^1.1.8",
-    "@bshgroup/component-stack": "^0.1.32",
+    "@bshgroup/component-stack": "^0.1.31",
     "next": "13.5.5",
     "react": "^18",
     "react-dom": "^18",
