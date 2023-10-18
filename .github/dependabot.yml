@@ -16,6 +16,6 @@ updates:
       - bshgroup
     schedule:
       interval: "daily"
-      time: "16:51"
+      time: "16:30"
     open-pull-requests-limit: 10
 

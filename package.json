@@ -10,6 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@angular/material": "^11.2.10",
     "@azure/core-paging": "^1.0.0",
     "@bshgroup/component-drawer": "^0.3.0",
     "@bshgroup/component-info-label": "^0.1.6",
