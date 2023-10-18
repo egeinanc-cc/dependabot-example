@@ -10,6 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@bshgroup/component-feature": "^1.1.8",
     "next": "13.5.5",
     "react": "^18",
     "react-dom": "^18",
