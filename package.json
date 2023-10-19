@@ -13,7 +13,7 @@
     "google-proto-files": "^3.0.3",
     "next": "13.5.5",
     "next-auth": "^4.24.2",
-    "node-fetch": "^2.6.13",
+    "node-fetch": "^3.3.2",
     "react": "^18",
     "react-dom": "^18"
   },
