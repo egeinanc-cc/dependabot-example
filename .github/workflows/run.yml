@@ -29,7 +29,7 @@ jobs:
         cache: 'npm'
     - run: |
         echo @bshgroup:registry=https://npm.pkg.github.com > .npmrc && \
-        echo //npm.pkg.github.com/:_authToken=${{secrets.GH_TOKEN}} >> .npmrc
+        echo //npm.pkg.github.com/:_authToken=${{secrets.ACTIONS_PAT}} >> .npmrc
 
     - run: cp .npmrc ~/.npmrc
     - run: cat ~/.npmrc
@@ -45,6 +45,7 @@ jobs:
         with:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - name: Enable auto-merge for Dependabot PRs
+        if: steps.dependabot_metadata.outputs.update-type == 'version-update:semver-minor' || steps.dependabot_metadata.outputs.update-type == 'version-update:semver-patch'
         run: gh pr merge --auto --rebase "$PR_URL"
         env:
           PR_URL: ${{github.event.pull_request.html_url}}
