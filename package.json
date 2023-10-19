@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "google-p12-pem": "^4.0.1",
+    "google-p12-pem": "^5.0.0",
     "next": "13.5.5",
     "react": "^18",
     "react-dom": "^18"
