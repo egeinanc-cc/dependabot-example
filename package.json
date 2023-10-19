@@ -10,8 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@google-cloud/storage": "^7.3.0",
-    "google-p12-pem": "^4.0.1",
+    "google-closure-library": "^20230228.0.0",
     "next": "13.5.5",
     "react": "^18",
     "react-dom": "^18"
