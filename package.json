@@ -17,7 +17,7 @@
     "@bshgroup/component-product-title": "^0.1.1",
     "@bshgroup/component-rating": "^0.1.40",
     "@bshgroup/component-stack": "^0.1.31",
-    "github-slugger": "^1.1.1",
+    "github-slugger": "^2.0.0",
     "next": "13.5.5",
     "react": "^18",
     "react-dom": "^18",
