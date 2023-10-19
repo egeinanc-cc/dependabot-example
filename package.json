@@ -10,10 +10,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "google-proto-files": "^3.0.3",
+    "google-p12-pem": "^4.0.1",
     "next": "13.5.5",
-    "next-auth": "^4.24.2",
-    "node-fetch": "^2.6.13",
     "react": "^18",
     "react-dom": "^18"
   },
