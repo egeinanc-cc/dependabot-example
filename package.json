@@ -10,10 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "lead": "^4.0.0",
     "next": "13.5.5",
-    "pre-commit": "^1.2.2",
-    "prettier": "^2.8.4",
     "react": "^18",
     "react-dom": "^18"
   },
