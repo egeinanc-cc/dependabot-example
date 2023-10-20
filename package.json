@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "facepunch-commits": "^3.6.3",
+    "facepunch-commits": "^3.6.4",
     "next": "13.5.5",
     "react": "^18",
     "react-dom": "^18",
