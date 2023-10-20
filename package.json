@@ -10,13 +10,12 @@
     "test": "jest"
   },
   "dependencies": {
-    "graphiql": "^3.0.6",
-    "graphql": "^16.8.1",
-    "graphql-js-tree": "^1.0.6",
-    "graphql-ws": "^5.14.1",
     "next": "13.5.5",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-hook-form": "^7.45.2",
+    "react-pdf": "^7.3.0",
+    "react-select": "^5.7.3"
   },
   "devDependencies": {
     "@types/node": "^20",
