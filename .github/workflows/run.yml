@@ -5,7 +5,7 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
 
 permissions:
@@ -21,18 +21,18 @@ jobs:
         # See supported Node.js Release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: |
-        echo @bshgroup:registry=https://npm.pkg.github.com > .npmrc && \
-        echo //npm.pkg.github.com/:_authToken=${{secrets.ACTIONS_PAT}} >> .npmrc
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
+      - run: |
+          echo @bshgroup:registry=https://npm.pkg.github.com > .npmrc && \
+          echo //npm.pkg.github.com/:_authToken=${{secrets.ACTIONS_PAT}} >> .npmrc
 
-    - run: cp .npmrc ~/.npmrc
-    - run: cat ~/.npmrc
+      - run: cp .npmrc ~/.npmrc
+      - run: cat ~/.npmrc
 
   automatic-merge:
     needs: build
@@ -44,9 +44,12 @@ jobs:
         uses: dependabot/fetch-metadata@v1
         with:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - name: Enable auto-merge for Dependabot PRs
-        run: gh pr merge --auto --rebase "$PR_URL" && echo "${{ steps.dependabot-metadata.outputs.update-type }}"
+      - name: Disable auto-merge for Major Dependabot PRs
+        if: ${{ steps.dependabot-metadata.outputs.update-type == 'version-update:semver-major' }}
+        run: echo "won't automerge because it is a major version"
+      - name: Enable auto-merge for Minor Dependabot PRs
+        if: ${{ steps.dependabot-metadata.outputs.update-type == 'version-update:semver-minor' || steps.dependabot-metadata.outputs.update-type == 'version-update:semver-patch' }}
+        run: gh pr merge --auto --rebase "$PR_URL"
         env:
           PR_URL: ${{github.event.pull_request.html_url}}
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-
