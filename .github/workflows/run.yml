@@ -44,6 +44,8 @@ jobs:
         uses: dependabot/fetch-metadata@v1
         with:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - name: Enable auto-merge for Dependabot PRs
+        run: echo "${{ steps.dependabot-metadata.outputs.update-type }}"
       - name: Disable auto-merge for Major Dependabot PRs
         if: ${{ steps.dependabot-metadata.outputs.update-type == 'version-update:semver-major' }}
         run: echo "won't automerge because it is a major version"
