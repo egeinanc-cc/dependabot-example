@@ -10,9 +10,11 @@
     "test": "jest"
   },
   "dependencies": {
+    "facepunch-commits": "^3.6.3",
     "next": "13.5.5",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "twitter-api-v2": "^1.14.3"
   },
   "devDependencies": {
     "@types/node": "^20",
