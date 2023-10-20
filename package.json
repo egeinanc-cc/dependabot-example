@@ -10,16 +10,10 @@
     "test": "jest"
   },
   "dependencies": {
-    "google-closure-library": "^20230802.0.0",
-    "google-libphonenumber": "^3.2.33",
-    "langchain": "^0.0.163",
-    "language-tags": "^0.1.0",
-    "leading-trim": "^1.0.2",
+    "lead": "^1.0.0",
     "next": "13.5.5",
     "react": "^18",
-    "react-dom": "^18",
-    "to-camel-case": "^1.0.0",
-    "toggle": "^1.0.0"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@types/node": "^20",
