@@ -13,7 +13,7 @@
     "graphiql": "^3.0.6",
     "graphql": "^16.8.1",
     "graphql-js-tree": "^1.0.6",
-    "graphql-ws": "^5.13.1",
+    "graphql-ws": "^5.14.1",
     "next": "13.5.5",
     "react": "^18",
     "react-dom": "^18"
