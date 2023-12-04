@@ -15,7 +15,11 @@
     "react-dom": "^18",
     "react-hook-form": "^7.48.2",
     "react-pdf": "^7.3.0",
-    "react-select": "^5.8.0"
+    "react-select": "^5.8.0",
+    "@bshgroup/component-fonts": "^0.2.1",
+    "@bshgroup/component-heading": "^0.0.44",
+    "@bshgroup/component-icons": "^0.4.0",
+    "@bshgroup/component-themes": "^0.45.0"
   },
   "devDependencies": {
     "@types/node": "^20",
