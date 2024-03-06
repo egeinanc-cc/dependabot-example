@@ -17,10 +17,10 @@
     "react-pdf": "^7.7.1",
     "react-select": "^5.8.0",
     "@bshgroup/component-fonts": "^0.2.4",
-    "@bshgroup/component-heading": "^0.0.50",
+    "@bshgroup/component-heading": "^0.0.51",
     "@bshgroup/component-icons": "^0.4.2",
-    "@bshgroup/component-themes": "^0.51.0",
-    "@bshgroup/component-stack": "^0.1.42"
+    "@bshgroup/component-themes": "^0.52.0",
+    "@bshgroup/component-stack": "^0.1.43"
   },
   "devDependencies": {
     "@types/node": "^20",
