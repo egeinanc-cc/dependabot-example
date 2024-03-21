@@ -16,11 +16,11 @@
     "react-hook-form": "^7.51.1",
     "react-pdf": "^7.7.1",
     "react-select": "^5.8.0",
-    "@bshgroup/component-fonts": "^0.2.4",
-    "@bshgroup/component-heading": "^0.0.51",
-    "@bshgroup/component-icons": "^0.4.2",
-    "@bshgroup/component-themes": "^0.52.0",
-    "@bshgroup/component-stack": "^0.1.43"
+    "@bshgroup/component-fonts": "^0.2.5",
+    "@bshgroup/component-heading": "^0.0.52",
+    "@bshgroup/component-icons": "^0.4.3",
+    "@bshgroup/component-themes": "^0.53.0",
+    "@bshgroup/component-stack": "^0.1.44"
   },
   "devDependencies": {
     "@types/node": "^20",
