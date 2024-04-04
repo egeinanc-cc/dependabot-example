@@ -19,7 +19,7 @@
     "@bshgroup/component-fonts": "^0.2.5",
     "@bshgroup/component-heading": "^0.0.52",
     "@bshgroup/component-icons": "^0.4.3",
-    "@bshgroup/component-themes": "^0.53.0",
+    "@bshgroup/component-themes": "^0.53.1",
     "@bshgroup/component-stack": "^0.1.44"
   },
   "devDependencies": {
